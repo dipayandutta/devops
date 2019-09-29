@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    volumes:
+      - ./HelloWorld:/app
+    image: django
+    ports:
+     - 5000:5000
