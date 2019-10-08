@@ -1,0 +1,2 @@
+docker pull phpmyadmin/phpmyadmin
+docker run --name myadmin -d --link mysql8:test_database --net webdev_default -p 8080:80 phpmyadmin/phpmyadmin
