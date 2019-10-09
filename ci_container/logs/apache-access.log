@@ -1,0 +1,5 @@
+192.168.1.6 - - [09/Oct/2019:04:10:38 +0000] "GET / HTTP/1.1" 200 1170 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0"
+192.168.1.6 - - [09/Oct/2019:04:10:39 +0000] "GET /favicon.ico HTTP/1.1" 404 504 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0"
+192.168.1.6 - - [09/Oct/2019:04:11:25 +0000] "GET /index.php HTTP/1.1" 200 1170 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0"
+192.168.1.6 - - [09/Oct/2019:04:11:25 +0000] "GET /favicon.ico HTTP/1.1" 404 504 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0"
+192.168.1.6 - - [09/Oct/2019:04:13:09 +0000] "GET /index.php HTTP/1.1" 200 1190 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0"

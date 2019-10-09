@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    build:
+      context: ./php
+      dockerfile: Dockerfile
+    container_name: codeigniter_container
+    volumes:
+      - ./php:/var/www/html:Z
+      - ./logs/apache-access.log:/var/log/apache2/access.log:Z
+      - ./logs/apache-error.log:/var/log/apache2/error.log:Z
+    ports:
+      - 8080:80
